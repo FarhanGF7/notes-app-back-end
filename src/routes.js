@@ -19,7 +19,7 @@ const routes = [
   },
   {
     method: "GET",
-    path: "./notes/{id}",
+    path: "/notes/{id}",
     handler: getNoteByIdHandler,
   },
   {
